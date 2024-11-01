@@ -14,8 +14,8 @@ struct HiSwiftApp: App {
 
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            BookMarkListView(viewModel: BookMarkListModel())
+            ContentView()
+//            BookMarkListView(viewModel: BookMarkListModel())
         }
     }    
 }

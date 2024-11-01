@@ -9,36 +9,23 @@ import SwiftUI
 
 
 struct ContentView: View {
-    @State private var fruits = [
-        "Apple",
-        "Banana",
-        "Orange"
-    ]
-
-    func setListSection() -> some View {
-        NavigationView {
-            List{
-                // 消除警告
-                ForEach(0..<fruits.count, id:\.self){ va in
-                 
-                    Section(header: Text(fruits[va])){
-                        
-                        ForEach(1..<5){ i in
-                            Text("测试数据\(i)")
-                        }
-                    }
-                }
-            }
-            .listStyle(.automatic)
-            .navigationTitle("测试分组展示")
-        }
-    }
     
     var body: some View {
-        setListSection()
+        VStack(alignment: .leading) {
+            Text("Hello SwiftUI!")
+                .font(.title)
+                .foregroundColor(.green)
+            HStack {
+                Text("约书亚树国家公园")
+                    .font(.subheadline)
+                Spacer()
+                Text("Hello World")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
     }
     
-  
 }
 
 #Preview {
