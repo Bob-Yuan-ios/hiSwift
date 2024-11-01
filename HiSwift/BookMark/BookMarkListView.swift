@@ -1,6 +1,6 @@
 //
 //  BookMarkListView.swift
-//  HelloSwift
+//  HiSwift
 //
 //  Created by Bob on 2024/11/1.
 //
