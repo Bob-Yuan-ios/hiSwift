@@ -3,7 +3,7 @@
 //  HiSwift
 //
 //  Created by Bob on 2024/10/31.
-//  参考链接：https://www.swiftbysundell.com/articles/making-swiftui-views-refreshable/
+//  
 
 import SwiftUI
 
@@ -15,7 +15,6 @@ struct HiSwiftApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-//            BookMarkListView(viewModel: BookMarkListModel())
         }
     }    
 }

@@ -3,7 +3,7 @@
 //  HiSwift
 //
 //  Created by Bob on 2024/11/1.
-//
+//  参考链接：https://www.swiftbysundell.com/articles/making-swiftui-views-refreshable/
 
 import SwiftUICore
 import SwiftUI
