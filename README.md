@@ -1,4 +1,4 @@
-# hiSwift
+# HiSwift
 
 ## SwiftUI语法学习
 ### Map文件目录(记录swiftui样例学习)
