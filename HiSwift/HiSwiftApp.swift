@@ -11,10 +11,11 @@ import SwiftUI
 struct HiSwiftApp: App {
     
     @UIApplicationDelegateAdaptor private var appDelegate: MyAppDelegate
+    @State private var modelData = ModelData()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(modelData)
         }
     }    
 }
