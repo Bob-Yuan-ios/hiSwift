@@ -13,7 +13,8 @@ struct ContentView: View {
     
     enum Tab{
         case featured
-        case list
+        case landlist
+        case booklist
     }
     
     var body: some View {
@@ -29,7 +30,13 @@ struct ContentView: View {
                 .tabItem({
                     Label("List", systemImage: "list.bullet")
                 })
-                .tag(Tab.list)
+                .tag(Tab.landlist)
+            
+            BookmarkListView(viewModel: BookmarkListModel())
+                .tabItem ({
+                    Label("Book", systemImage: "checkmark.circle")
+                })
+                .tag(Tab.booklist)
         }
     }
     

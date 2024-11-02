@@ -1,5 +1,5 @@
 //
-//  BookMarkListView.swift
+//  BookmarkListView.swift
 //  HiSwift
 //
 //  Created by Bob on 2024/11/1.
@@ -8,9 +8,9 @@
 import SwiftUICore
 import SwiftUI
 
-struct BookMarkListView : View{
+struct BookmarkListView : View{
 
-    @ObservedObject var viewModel: BookMarkListModel
+    @ObservedObject var viewModel: BookmarkListModel
     @State private var error: Error?
     
     var body: some View {

@@ -1,5 +1,5 @@
 //
-//  BookMarkListModel.swift
+//  BookmarkListModel.swift
 //  HiSwift
 //
 //  Created by Bob on 2024/11/1.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BookMarkListModel: ObservableObject{
+class BookmarkListModel: ObservableObject{
     
     @Published private(set) var bookmarks = [
         "Apple"
