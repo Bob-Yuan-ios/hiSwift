@@ -25,7 +25,7 @@ struct LandmarkRow: View {
                     .imageScale(.medium)
                     .foregroundStyle(.yellow)
             }
-        }
+        }.scenePadding()
     }
 }
 
